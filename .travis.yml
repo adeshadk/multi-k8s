@@ -20,7 +20,7 @@ after_success:
   - docker push adeshadk/multi-nginx 
   - docker push adeshadk/multi-server 
   - docker push adeshadk/multi-worker 
-deply:
+deploy:
   provider: easticbeanstalk
   region: us-east-1
   app: multi-docker
